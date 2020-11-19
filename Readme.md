@@ -61,6 +61,13 @@ Don't worry, we'll break it all down, piece by piece.
 * `State` : Implements the `State` design pattern and switches between states. State is basically an abstract class that allows us to conveniently swap different behavior at runtime. This behavior is evaluated by a class that inherits from `State`. Thus we can call `State::udpate` and `State::render` without needing to know what state we're on and given miscellaneous game properties we get the appropriate (for example if we're paused we use the `MenuState()` `update()` and `render()` which is different behavior from the `GateState()`'s functions of the same name). There are 2 states
 	- `GameState` : delegates to world.update()
 	- `MenuState` : del
+
+Here's how the game looks when on the `MenuState` and the player's current items:
+
+<p style="text-align: center;">
+	<img src="_present/inventory.jpg" />
+</p>
+
 * `World` : a game level or map (currently there's only 1 level consisting of 256 tiles). It `loadWorld()`s given file path which is basically a 2d array of ""tiles". It has `update()` and `render()` methods which in return call `update` and `render` on the manager classes.
 * `Tile` : the base representation for a tile, with `update` and `render` methods. Lots of classes inherit from it depending on what type of tiles you want to have, eg `GrassTile`, `RoadTile`, `WaterTile`, `TreeTile` etc.
 * `Item` : similar to Tile. Additionally there are utilities for creating new items and destroying them.
