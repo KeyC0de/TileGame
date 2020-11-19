@@ -18,6 +18,10 @@ public abstract class Creature extends Entity
 		speed = DEFAULT_SPEED;
 		xMove = 0;
 		yMove = 0;
+
+		// for enemies possibly inherit creature or sth
+		// load tile
+		// super(Assets.enemy[0], id);
 	}
 	
 	// a Creature (movable) type entity must check for collision detection before it can move 

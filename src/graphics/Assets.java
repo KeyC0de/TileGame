@@ -30,8 +30,8 @@ public class Assets
 ("resources/sprites/player.png"));
 		SpriteLoader terrainSheet = new SpriteLoader(ImageLoader.loadImage
 ("resources/sprites/terrain.png"));
-		SpriteLoader enemiesSheet = new SpriteLoader(ImageLoader.loadImage
-("resources/sprites/enemies.png"));
+		//SpriteLoader enemiesSheet = new SpriteLoader(ImageLoader.loadImage
+//("resources/sprites/enemies.png"));
 		SpriteLoader startButton1Sheet = new SpriteLoader(ImageLoader.loadImage
 ("resources/sprites/startButton1.png"));
 		SpriteLoader startButton2Sheet = new SpriteLoader(ImageLoader.loadImage
@@ -74,16 +74,16 @@ public class Assets
 		road[0] = terrainSheet.crop(0, 2 * height, width, height);
 		road[1] = terrainSheet.crop(width, 2 * height, width, height);
 		
-		enemy = new BufferedImage[8];
-		
-		enemy[0] = enemiesSheet.crop(0, 0, width, height);
-		enemy[1] = enemiesSheet.crop(width, 0, width, height);
-		enemy[2] = enemiesSheet.crop(0, height, width, height);
-		enemy[3] = enemiesSheet.crop(width, height, width, height);
-		enemy[4] = enemiesSheet.crop(2 * width, height, width, height);
-		enemy[5] = enemiesSheet.crop(3 * width, height, width, height);
-		enemy[6] = enemiesSheet.crop(0, 2 * height, width, height);
-		enemy[7] = enemiesSheet.crop(width, 2 * height, width, height);
+		//enemy = new BufferedImage[8];
+//
+		//enemy[0] = enemiesSheet.crop(0, 0, width, height);
+		//enemy[1] = enemiesSheet.crop(width, 0, width, height);
+		//enemy[2] = enemiesSheet.crop(0, height, width, height);
+		//enemy[3] = enemiesSheet.crop(width, height, width, height);
+		//enemy[4] = enemiesSheet.crop(2 * width, height, width, height);
+		//enemy[5] = enemiesSheet.crop(3 * width, height, width, height);
+		//enemy[6] = enemiesSheet.crop(0, 2 * height, width, height);
+		//enemy[7] = enemiesSheet.crop(width, 2 * height, width, height);
 		
 		startButton = new BufferedImage[2];
 		
