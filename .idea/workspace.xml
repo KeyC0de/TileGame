@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="202a4be7-a292-4c08-a21a-12467e238ee8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GNU GPL license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GNU GPL license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sprites/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/player.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sprites/player.psd" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sprites/player.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/Assets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/EnemyTile.java" beforeDir="false" />
-    </list>
+    <list default="true" id="202a4be7-a292-4c08-a21a-12467e238ee8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +56,8 @@
       <file leaf-file-name="MouseManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/input/MouseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="400">
+              <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -94,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/state/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -163,6 +153,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TileGame" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TileGame" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,18 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TileGame" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TileGame" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +301,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -380,7 +370,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Nikos\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -420,7 +410,7 @@
       <window_info anchor="right" id="Version Control" internal_type="SLIDING" order="13" type="SLIDING" weight="0.3001066" />
       <window_info anchor="right" id="Terminal" internal_type="SLIDING" order="8" sideWeight="0.49029127" type="SLIDING" weight="0.30703625" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18036404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18036404" />
       <window_info id="Learn" order="3" weight="0.32984003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.30722558" />
@@ -454,16 +444,16 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="9" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="0" />
+      <window_info id="Learn" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Run" internal_type="SLIDING" order="7" type="SLIDING" weight="0.30773333" />
       <window_info anchor="right" id="JetGradle" order="17" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.3075693" />
-      <window_info anchor="bottom" id="Changes" order="1" />
+      <window_info anchor="right" id="Palette" order="0" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Profiler" order="3" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Terminal" internal_type="SLIDING" order="8" sideWeight="0.49029127" type="SLIDING" weight="0.30703625" />
+      <window_info anchor="bottom" id="Changes" order="1" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
@@ -475,9 +465,9 @@
       <window_info active="true" anchor="right" id="Dependency Viewer" internal_type="SLIDING" order="19" type="SLIDING" visible="true" weight="0.32853332" />
       <window_info anchor="right" id="Version Control" internal_type="SLIDING" order="14" show_stripe_button="false" type="SLIDING" weight="0.3001066" />
       <window_info anchor="right" id="Maven Projects" internal_type="SLIDING" order="2" type="SLIDING" weight="0.3075693" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3373232" />
+      <window_info anchor="right" id="Terminal" internal_type="SLIDING" order="8" sideWeight="0.49029127" type="SLIDING" weight="0.30703625" />
+      <window_info anchor="right" id="Analyze Dataflow to" internal_type="SLIDING" order="18" type="SLIDING" weight="0.32947367" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23000552" />
-      <window_info id="Learn" order="3" />
       <window_info anchor="right" id="Database" order="11" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="TODO" internal_type="SLIDING" order="12" sideWeight="0.38282079" type="SLIDING" weight="0.3075693" />
@@ -486,7 +476,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Coverage" internal_type="SLIDING" order="3" side_tool="true" type="SLIDING" weight="0.3296" />
-      <window_info anchor="right" id="Analyze Dataflow to" internal_type="SLIDING" order="18" type="SLIDING" weight="0.32947367" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3373232" />
       <window_info anchor="right" id="Bean Validation" order="16" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
@@ -737,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/src/state/GameState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -785,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/input/MouseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="400">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
