@@ -145,7 +145,7 @@ public class Game implements Runnable
 	
 	
 	/*public void run()
-	{	
+	{
 		init(); // initializes everything we'll need to use for rendering
 		
 		int fps = 30;				// theoretical fps
@@ -198,7 +198,7 @@ public class Game implements Runnable
 	
 	
 	public void run()
-	{	
+	{
 		init(); // initializes everything we'll need to use for rendering
 		
 		int fps = 30;							// theoretical fps
